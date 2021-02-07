@@ -5,6 +5,7 @@ services:
     command: 
       - jekyll serve --force_polling
       - mkdir /root/.ssh
+      - apk add openssh
       - chmod 600 /root/.ssh/*
     volumes:
       - .:/srv/jekyll
