@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  app:
+    image: jekyll/jekyll:pages
+    command: 
+      - jekyll serve --force_polling
+      - mkdir /root/.ssh
+      - chmod 600 /root/.ssh/*
+    volumes:
+      - .:/srv/jekyll
+      - ${USERPROFILE}\\.ssh_docker:/root/.ssh
+    ports:
+      - 4000:4000   
+    
