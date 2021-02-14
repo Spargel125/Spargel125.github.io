@@ -1,0 +1,5 @@
+cd /panthera-jekyll
+
+chmod 777 /workspace/panthera-jekyll/
+bundle install
+bundle exec jekyll serve --host 0.0.0.0
