@@ -1,5 +1,15 @@
 cd /panthera-jekyll
 
+
 chmod 777 /workspace/panthera-jekyll/
+
+起動方法
 bundle install
 bundle exec jekyll serve --host 0.0.0.0
+
+ブラウザでlocalhost:4000
+
+ブログ書く位置
+/dcos/_posts
+ ブログ名は2021-04-01-hogehoge.mdのようにあうる．
+ date: 2020-04-01　9：00：00 +9として，日付をあわせる．時刻も必要

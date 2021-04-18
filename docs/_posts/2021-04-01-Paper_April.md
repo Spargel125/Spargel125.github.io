@@ -1,13 +1,13 @@
 ---
-layout: post,math,default
+layout: post
 title: Paper_April
-date: 2021-04-01 
+date: 2021-04-01 9：00：00 +9 #時間まで必要
 description: You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 image: # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Holidays, Hawaii]
 ---
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
 
 # 4月に読んだ論文たち
 
