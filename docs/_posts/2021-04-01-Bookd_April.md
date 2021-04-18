@@ -1,11 +1,11 @@
 ---
 layout: post
-title: First Demo Post
-date: 2020-07-10 13:32:20 +0300
+title: Books_April
+date: 2020-04-01
 description: You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-image: # Add image post (optional)
+# image: /assets/images/posts/1.jpg
 fig-caption: # Add figcaption (optional)
-tags: [Holidays, Hawaii]
+tags: [Books,April]
 ---
 
-テスト投稿
+# 制御工学の考え方

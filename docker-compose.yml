@@ -9,6 +9,7 @@ services:
       - chmod 600 /root/.ssh/*
       - touch Gemfile.lock
       - chmod 777  /workspace/panthera-jekyll/*
+      - bundle install
       # - USER_ID=${LOCAL_UID:-9001}
       # - GROUP_ID=${LOCAL_GID:-9001}
       # - useradd -u $USER_ID -o -m user

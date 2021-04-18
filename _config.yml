@@ -39,12 +39,12 @@ menu:
     link: /resume
     icon: ""
 
-  - text: Blog Posts
-    link: /blog
+  - text: Reading Log
+    link: /readinglog
     icon: ""
 
-  - text: Reading Log
-    link: /Reading_log
+  - text: Blogs
+    link: /blogs
     icon: ""
 
 # Socialmedia Icons
