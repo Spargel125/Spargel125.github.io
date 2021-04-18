@@ -43,6 +43,10 @@ menu:
     link: /blog
     icon: ""
 
+  - text: Reading Log
+    link: /Reading_log
+    icon: ""
+
 # Socialmedia Icons
 social_icons:
   - name: linkedin
