@@ -13,14 +13,15 @@ pagination:
     after: 3  # The number of links after the current page
 ---
 
-<div class="post">
+ <!-- <div class="post"> -->
 
   <div class="header-bar">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
+    <h2>visit: <a href="https://tagebuchvonspargel.hatenablog.com/">Tagebuch von Spargel</a></h2>
   </div>
 
-  {% if site.display_tags %}
+  <!-- {% if site.display_tags %}
   <div class="tag-list">
     <ul class="p-0 m-0">
       {% for tag in site.display_tags %}
@@ -33,8 +34,8 @@ pagination:
       {% endfor %}
     </ul>
   </div>
-  {% endif %}
-
+  {% endif %} -->
+<!-- 
   <ul class="post-list">
     {% for post in paginator.posts %}
 
@@ -93,8 +94,8 @@ pagination:
     </li>
 
     {% endfor %}
-  </ul>
+  </ul> -->
 
-  {% include pagination.html %}
+  <!-- {% include pagination.html %} -->
 
-</div>
+<!-- </div> -->
