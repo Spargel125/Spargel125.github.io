@@ -2,14 +2,15 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+# description: A growing collection of your cool projects.
 nav: true
 nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
 
-[react-rust-test-app](https://spargel125.github.io/test-app/)
+react+wasm(rust)のページ作成テンプレート
+[react-rust-template](https://spargel125.github.io/react-rust-template/)
 
 
 
