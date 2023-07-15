@@ -12,7 +12,8 @@ horizontal: false
 react+wasm(rust)のページ作成テンプレート
 [react-rust-template](https://spargel125.github.io/react-rust-template/)
 
-
+wsl上のubuntuにros環境を構築し，windows上のMATLABから接続する
+[setting-ROSonWSL](https://github.com/Spargel125/setting-ROSonWSL)
 
 <script>
 /*
