@@ -5,6 +5,7 @@ github_users:
 github_repos:
   - Spargel125/setting-ROSonWSL
   - Spargel125/MomentKalmanFilter
+  - Spargel125/tri_poly_moment
   # - jekyll/jekyll
   # - jquery/jquery
   # - FortAwesome/Font-Awesome
