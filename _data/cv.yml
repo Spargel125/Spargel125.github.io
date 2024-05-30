@@ -1,14 +1,17 @@
-- title: 工事中
+- title: CV/Profile
 
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Albert Einstein
-#     - name: Date of Birth
-#       value: 14th March 1879
-#     - name: Languages
-#       value: English, German
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: YOSHIDA Yuji
+    - name: Languages
+      value: Japanese
+    - name: E-mail
+      value: y_yoshida[at]eom.mech.eng.osaka-u.ac.jp
+    - name: Linked in
+      value: <a href="https://www.linkedin.com/in/yuji-yoshida/">Yuji Yoshida</a>
+
 
 # - title: Education
 #   type: time_table
