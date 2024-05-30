@@ -1,4 +1,4 @@
-- title: CV/Profile
+# - title: CV/Profile
 
 - title: General Information
   type: map
@@ -7,6 +7,8 @@
       value: YOSHIDA Yuji
     - name: Languages
       value: Japanese
+    - name: Place
+      value: Osaka, Japan
     - name: E-mail
       value: y_yoshida[at]eom.mech.eng.osaka-u.ac.jp
     - name: Linked in
