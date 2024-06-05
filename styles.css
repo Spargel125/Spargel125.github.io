@@ -36,7 +36,7 @@ html, body {
   overflow: visible;
 }
 .mdl-demo .mdl-layout__tab-bar-container {
-  height: 64px;
+  height: 60px;
 }
 .mdl-demo .mdl-layout__tab-bar {
   padding: 0;
@@ -116,6 +116,14 @@ html, body {
 .mdl-demo #features section.section--center {
   max-width: 620px;
 }
+.mdl-demo #blog section.section--center {
+  max-width: 620px;
+}
+.mdl-demo #cvprofile section.section--center {
+  max-width: 620px;
+}
+
+
 .mdl-demo section > header{
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -207,7 +215,19 @@ html, body {
 .mdl-demo #features section {
   margin-bottom: 72px;
 }
+.mdl-demo #blog section {
+  margin-bottom: 72px;
+}
+.mdl-demo #cvprofile section {
+  margin-bottom: 72px;
+}
 .mdl-demo #features h4, #features h5 {
+  margin-bottom: 16px;
+}
+.mdl-demo #blog h4, #blog h5 {
+  margin-bottom: 16px;
+}
+.mdl-demo #cvprofile h4, #cvprofile h5 {
   margin-bottom: 16px;
 }
 .mdl-demo .toc {
