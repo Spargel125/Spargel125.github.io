@@ -15,7 +15,7 @@
   See the License for the specific language governing permissions and
   limitations under the License
 -->
-<html lang="en">
+<html lang="jp">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -88,13 +88,25 @@
         </div>
       </header>
       <main class="mdl-layout__content">
+
         <!-- ABOUT -->
         <div class="mdl-layout__tab-panel is-active" id="about">
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <!-- <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
-              <i class="material-icons">play_circle_filled</i>
-            </header> -->
-
+          <!-- パネル型にするとき -->
+          <!-- <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp"> -->
+            <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                <div class="mdl-card__supporting-text">
+                  <h4>ようこそ&nbsp;(Welcome)</h4>
+                  野良の制御系エンジニアもどきのページです．<br>
+                  自己紹介，ブログ，業績，プロジェクト，リポジトリ，cvなどを掲載しています．<br>
+                  各SNSやブログ等は下記のアイコンからもアクセスできます．<br>
+                </div>
+              <div class="mdl-card__actions">
+                <a href="#" class="mdl-button">自己紹介の続き&nbsp;(See more profile)</a>
+              </div>
+            </div>
+          </section>
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
             <!-- LinkedIn Icon -->
             <a href= "https://www.linkedin.com/in/yuji-yoshida/" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96" viewBox="0 0  24 24">
@@ -102,7 +114,7 @@
                 <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
               </svg>
             </a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- 空白を開ける -->
             <!-- Github -->
             <a href="https://github.com/Spargel125" target="_blank" >          
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="96" height="96"viewBox="0 0 24 24">
@@ -118,101 +130,19 @@
                 <path d="M.264 23.771h4.984c.264 0 .498-.147.645-.352L19.614.874c.176-.293-.029-.645-.381-.645h-4.72c-.235 0-.44.117-.557.323L.03 23.361c-.088.176.029.41.234.41zM17.445 23.419l6.479-10.408c.205-.323-.029-.733-.41-.733h-4.691c-.176 0-.352.088-.44.235l-6.655 10.643c-.176.264.029.616.352.616h4.779c.234-.001.468-.118.586-.353z"/>
               </svg>
             </a>
-
-            <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-              <div class="mdl-card__supporting-text">
-                <h4>Features</h4>
-                Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.
-              </div>
-              <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Read our features</a>
-              </div>
-            </div>
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn1">
-              <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn1">
-              <li class="mdl-menu__item">Lorem</li>
-              <li class="mdl-menu__item" disabled>Ipsum</li>
-              <li class="mdl-menu__item">Dolor</li>
-            </ul>
           </section>
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-              <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-                <h4 class="mdl-cell mdl-cell--12-col">Details</h4>
-                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                  <div class="section__circle-container__circle mdl-color--primary"></div>
-                </div>
-                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <h5>Lorem ipsum dolor sit amet</h5>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
-                </div>
-                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                  <div class="section__circle-container__circle mdl-color--primary"></div>
-                </div>
-                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <h5>Lorem ipsum dolor sit amet</h5>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
-                </div>
-                <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-                  <div class="section__circle-container__circle mdl-color--primary"></div>
-                </div>
-                <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-                  <h5>Lorem ipsum dolor sit amet</h5>
-                  Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
-                </div>
-              </div>
-              <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Read our features</a>
-              </div>
-            </div>
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn2">
-              <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn2">
-              <li class="mdl-menu__item">Lorem</li>
-              <li class="mdl-menu__item" disabled>Ipsum</li>
-              <li class="mdl-menu__item">Dolor</li>
-            </ul>
-          </section>
-          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-            <div class="mdl-card mdl-cell mdl-cell--12-col">
-              <div class="mdl-card__supporting-text">
-                <h4>Technology</h4>
-                Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse. Pariatur occaecat nisi laboris tempor laboris eiusmod qui id Lorem esse commodo in. Exercitation aute dolore deserunt culpa consequat elit labore incididunt elit anim.
-              </div>
-              <div class="mdl-card__actions">
-                <a href="#" class="mdl-button">Read our features</a>
-              </div>
-            </div>
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn3">
-              <i class="material-icons">more_vert</i>
-            </button>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn3">
-              <li class="mdl-menu__item">Lorem</li>
-              <li class="mdl-menu__item" disabled>Ipsum</li>
-              <li class="mdl-menu__item">Dolor</li>
-            </ul>
-          </section>
-          <section class="section--footer mdl-color--white mdl-grid">
-            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-              <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
-            </div>
-            <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-              <h5>Lorem ipsum dolor sit amet</h5>
-              Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
-            </div>
-            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
-              <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
-            </div>
-            <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-              <h5>Lorem ipsum dolor sit amet</h5>
-              Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
-            </div>
+          <section class="section--center mdl-grid mdl-grid--no-spacing">
+            <!-- 見栄え調整のためのダミーsection -->
           </section>
         </div>
-        <!-- fratures -->
+
+        
+        <!-- 
+        _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+        次のページ
+        fratures
+        _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+        -->
         <div class="mdl-layout__tab-panel" id="features">
           <section class="section--center mdl-grid mdl-grid--no-spacing">
             <div class="mdl-cell mdl-cell--12-col">
@@ -339,14 +269,20 @@
                 <dd>y_yoshida[at]eom.mech.eng.osaka-u.ac.jp</dd>
                 <dt>Linked In</dt>
                 <dd>
-                  <a href= "https://www.linkedin.com/in/yuji-yoshida/" target="_blank" >YOSHIDA Yuji (new tab)</a>
+                  <a href= "https://www.linkedin.com/in/yuji-yoshida/" target="_blank" style="color: blue;">YOSHIDA Yuji (new tab)</a>
                 </dd>
               </dl>
             </div>
           </section>
         </div>
 
-        <!-- fotter -->
+
+        <!-- 
+        ##################################################
+        全頁共通
+        フッター
+        ##################################################
+        -->        
         <footer class="mdl-mega-footer">
           <div class="mdl-mega-footer--middle-section">
             <div class="mdl-mega-footer--drop-down-section">
