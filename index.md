@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+# WELCOME
+
+各ページへは下記もしくは左のリンクから移動してください．
+## 目次
 
 - [Blog/Works](./contents/BlogWorks.html)
 - [PROJECTS](./contents/projects.html)
